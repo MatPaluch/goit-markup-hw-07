@@ -67,9 +67,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-.menu-toggle {
-  display: none;
-}
+
 /* -------HEADER------- */
 
 .body-header {
@@ -813,10 +811,13 @@ body {
   color: var(--NAVY-BLUE);
   margin-bottom: 8px;
 }
-.close-button {
+.js-close-men {
   display: none;
 }
 .toggle-container {
+  display: none;
+}
+.menu-toggle {
   display: none;
 }
 
@@ -911,7 +912,7 @@ body {
   .sub-input {
     opacity: 0.3;
   }
-  .close-button {
+  .js-close-men {
     display: none;
   }
 }
