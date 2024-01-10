@@ -813,6 +813,9 @@ body {
   color: var(--NAVY-BLUE);
   margin-bottom: 8px;
 }
+.close-button {
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .container {
@@ -904,6 +907,9 @@ body {
   }
   .sub-input {
     opacity: 0.3;
+  }
+  .close-button {
+    display: none;
   }
 }
 
