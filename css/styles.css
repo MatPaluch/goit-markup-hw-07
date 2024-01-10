@@ -816,6 +816,9 @@ body {
 .close-button {
   display: none;
 }
+.toggle-container {
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .container {
