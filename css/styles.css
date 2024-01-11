@@ -974,13 +974,11 @@ body {
   }
   .logo-container {
     margin: 0;
+    text-align: center;
   }
   .footer-div {
     justify-content: center;
     padding-left: 15px;
-  }
-  .logo-container {
-    text-align: center;
   }
   .p-head {
     text-align: center;
