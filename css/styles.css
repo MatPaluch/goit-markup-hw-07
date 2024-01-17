@@ -822,6 +822,15 @@ body {
   display: none;
 }
 
+/* ------- Filter buttons------- */
+.filterLi {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+/* ------- Filter buttons------- */
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 768px;
