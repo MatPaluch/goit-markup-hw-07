@@ -88,26 +88,58 @@
       <section class="section-container">
         <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
-          <ul class="list filter-list">
-            <li>
-              <button type="button" class="filter-button">All</button>
-            </li>
-            <li>
-              <button type="button" class="filter-button">Web Site</button>
-            </li>
-            <li>
-              <button type="button" class="filter-button">App</button>
-            </li>
-            <li>
-              <button type="button" class="filter-button">Design</button>
-            </li>
-            <li>
-              <button type="button" class="filter-button">Marketing</button>
-            </li>
-          </ul>
+          <div id="myBtnContainer">
+            <ul class="list filter-list">
+              <li>
+                <button
+                  type="button"
+                  class="filter-button active"
+                  onclick="filterSelection('all')"
+                >
+                  All
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="filter-button"
+                  onclick="filterSelection('web')"
+                >
+                  Web Site
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="filter-button"
+                  onclick="filterSelection('app')"
+                >
+                  App
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="filter-button"
+                  onclick="filterSelection('design')"
+                >
+                  Design
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="filter-button"
+                  onclick="filterSelection('marketing')"
+                >
+                  Marketing
+                </button>
+              </li>
+            </ul>
+          </div>
 
           <ul class="list image-list">
-            <li class="image-position">
+            <li class="image-position filterLi app">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -129,7 +161,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi marketing">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -150,7 +182,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi app">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -171,7 +203,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi marketing">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -192,7 +224,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi design">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -212,7 +244,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi marketing">
               <a class="link shadow-list" href="./portfolio.html"
                 ><div class="overlay">
                   <img
@@ -233,7 +265,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi design">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -255,7 +287,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi web">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -275,7 +307,7 @@
                 </div>
               </a>
             </li>
-            <li class="image-position">
+            <li class="image-position filterLi web">
               <a class="link shadow-list" href="./portfolio.html">
                 <div class="overlay">
                   <img
@@ -432,5 +464,6 @@
       </address>
     </div>
     <script src="./js/mobile-menu.js" defer></script>
+    <script src="./js/filter.js"></script>
   </body>
 </html>
