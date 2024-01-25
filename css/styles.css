@@ -830,7 +830,6 @@ body {
   display: block;
 }
 
-/* ------- Filter buttons------- */
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 768px;
