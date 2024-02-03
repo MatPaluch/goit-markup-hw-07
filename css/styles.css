@@ -938,7 +938,7 @@ body {
 .radio-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .radio-container > label {
   display: flex;
@@ -1131,11 +1131,11 @@ body {
   }
   .img-letter {
     opacity: 0.5;
-    height: 180px;
-    bottom: 30px;
+    height: 160px;
+    bottom: 60px;
   }
   .contact-button {
-    margin: 0 auto 0 auto;
+    margin: 10px auto 0 auto;
   }
 }
 
@@ -1279,5 +1279,66 @@ body {
   .close-button:hover .colorfill-button-menu,
   .close-button:focus .colorfill-button-menu {
     fill: var(--WHITE);
+  }
+  .title-header-contact {
+    font-size: 24px;
+  }
+  .descrip-contact {
+    font-size: 14px;
+  }
+  .head-left {
+    font-size: 20px;
+  }
+
+  .bg-form {
+    flex-direction: column;
+    height: auto;
+    font-size: 12px;
+  }
+  .blue-left {
+    width: auto;
+    height: 400px;
+    text-align: center;
+  }
+  .list-position {
+    gap: 15px;
+  }
+  .list-center {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .obj-smaller {
+    width: 54px;
+    height: 54px;
+    right: 26px;
+    bottom: 52px;
+  }
+  .obj-bigger {
+    width: 192px;
+    height: 192px;
+  }
+  .white-right {
+    width: auto;
+  }
+  .contact-subject {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .contact-mess {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .message {
+    margin-top: 20px;
+  }
+  .contact-button {
+    margin-top: 20px;
+    width: 100%;
+    height: 38px;
+  }
+  .img-letter {
+    height: 100px;
+    bottom: 100px;
+    opacity: 0.8;
   }
 }
